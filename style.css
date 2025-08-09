@@ -1,0 +1,69 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/* Fondo de partículas en escala de grises */
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to top, #2f2f2f, #595959); /* gris oscuro a gris medio */
+}
+
+/* Contenido por encima del fondo */
+.contenido {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+#titulo {
+    font-size: 3em;
+    margin-top: 40px;
+    letter-spacing: 2px;
+}
+
+#descripcion {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+.presentacion {
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+.foto {
+    margin: 30px 0;
+}
+
+.foto img {
+    width: 20vw;
+}
+
+footer nav a {
+    margin: 0 15px;
+    color: #ccc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer nav a:hover {
+    color: #fff;
+}
+
+.jetbrains-mono-font {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 316;
+  font-style: normal;
+}
